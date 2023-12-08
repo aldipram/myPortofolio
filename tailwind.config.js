@@ -10,6 +10,9 @@ export default {
         darkBackground: '#0c111f',
         brightColor: '#f9ec7d',
       },
+      screens: {
+        mobile: {'max': '1023px'},
+      }
     },
   },
   plugins: [],
