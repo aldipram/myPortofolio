@@ -7,18 +7,28 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import { ThemeProvider } from './UI/Theme.jsx';
+import { ProjectProvider } from './Components/ProjectContext.jsx';
+import DetailProject from './Pages/CardDetails.jsx'
 
-const router = createBrowserRouter([
+const BrowserRouter = createBrowserRouter([
+  // Root route
   {
     path: "/",
     element: <App />,
   },
+  // Detail route
+  {
+    path: "/detail/:id",
+    element: <DetailProject />,
+  },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <ThemeProvider>
-      <RouterProvider router={router} />
-    </ThemeProvider>
-  </React.StrictMode>
+  <ProjectProvider>
+    <React.StrictMode>
+      <ThemeProvider>
+        <RouterProvider router={BrowserRouter} />
+      </ThemeProvider>
+    </React.StrictMode>
+  </ProjectProvider>
 );
