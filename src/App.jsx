@@ -1,3 +1,4 @@
+import About from "./Components/About"
 import Home from "./Components/Home"
 import Navbar from "./Components/Navbar"
 
@@ -7,6 +8,7 @@ function App() {
     <div className="h-screen bg-white">
       <Navbar />
       <Home />
+      <About />
     </div>
     </>
   )
