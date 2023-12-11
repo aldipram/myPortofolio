@@ -13,7 +13,7 @@ function Navbar() {
 
   return (
     <>
-      <div className="w-full h-16 p-6 lg:p-8 bg-darkBackground text-white flex justify-between items-center sticky top-0 left-0">
+      <div className="w-full h-16 p-6 lg:p-8 bg-darkBackground text-white flex justify-between items-center sticky top-0 left-0 z-50">
         <div>
           <a href="#home" className="text-xl">
             ALDIprmdy_

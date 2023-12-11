@@ -4,8 +4,8 @@ import { Github, Instagram, Linkedin, PhoneCall } from "lucide-react";
 function About() {
     return ( 
         <>
-            <div id='about' className='flex flex-col gap-10 lg:gap-20 justify-center items-center mx-auto h-[90%] w-[80%] mt-20 md:my-40 lg:m-auto'>
-                <h1 className='font-semibold text-2xl lg:text-3xl'>About Me</h1>
+            <div id='about' className='flex flex-col gap-10 lg:gap-20 justify-center items-center mx-auto h-screen w-[80%] mt-20 md:my-40 lg:m-auto'>
+                <h1 className='font-semibold text-2xl lg:text-3xl uppercase'>About Me</h1>
                     <div className='flex flex-col justify-center items-center lg:flex-row gap-10'>
                         <div className='w-full xl:w-5/12'>
                             <img src={imgAbout} alt="" className='rounded-xl shadow-2xl shadow-[#7977f1]'/>
