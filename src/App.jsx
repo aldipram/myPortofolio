@@ -1,5 +1,6 @@
 import About from "./Components/About"
 import Contact from "./Components/Contact"
+import Footer from "./Components/Footer"
 import Home from "./Components/Home"
 import Navbar from "./Components/Navbar"
 import Profile from "./Components/Profile"
@@ -15,6 +16,7 @@ function App() {
       <Project />
       <Profile />
       <Contact />
+      <Footer />
     </div>
     </>
   )
