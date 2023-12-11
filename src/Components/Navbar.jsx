@@ -44,6 +44,12 @@ function Navbar() {
               <li>Project</li>
             </a>
             <a
+              href="#profile"
+              className="tracking-widest text-base hover:text-brightColor h-[35px] lg:h-auto w-full text-center relative after:absolute after:left-0 after:bottom-0 after:w-full after:h-[1px] after:bg-slate-300 after:opacity-20 after:transition-all after:duration-300 hover:after:w-full lg:after:hidden"
+            >
+              <li>Profile</li>
+            </a>
+            <a
               href="#contact"
               className="tracking-widest text-base hover:text-brightColor h-[35px] lg:h-auto w-full text-center relative after:absolute after:left-0 after:bottom-0 after:w-full after:h-[1px] after:bg-slate-300 after:opacity-20 after:transition-all after:duration-300 hover:after:w-full lg:after:hidden"
             >
