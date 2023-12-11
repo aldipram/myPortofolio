@@ -15,7 +15,7 @@ function Navbar() {
     <>
       <div className="w-full h-16 p-6 lg:p-8 bg-darkBackground text-white flex justify-between items-center sticky top-0 left-0">
         <div>
-          <a href="home" className="text-xl">
+          <a href="#home" className="text-xl">
             ALDIprmdy_
           </a>
         </div>
@@ -26,25 +26,25 @@ function Navbar() {
         >
           <ul className="flex flex-col lg:flex-row justify-center items-center gap-5 p-4 lg:gap-20">
             <a
-              href="home"
+              href="#home"
               className="tracking-widest text-base hover:text-brightColor h-[35px] lg:h-auto w-full text-center relative after:absolute after:left-0 after:bottom-0 after:w-full after:h-[1px] after:bg-slate-300 after:opacity-20 after:transition-all after:duration-300 hover:after:w-full lg:after:hidden"
             >
               <li>Home</li>
             </a>
             <a
-              href="about"
+              href="#about"
               className="tracking-widest text-base hover:text-brightColor h-[35px] lg:h-auto w-full text-center relative after:absolute after:left-0 after:bottom-0 after:w-full after:h-[1px] after:bg-slate-300 after:opacity-20 after:transition-all after:duration-300 hover:after:w-full lg:after:hidden"
             >
               <li>About</li>
             </a>
             <a
-              href="project"
+              href="#project"
               className="tracking-widest text-base hover:text-brightColor h-[35px] lg:h-auto w-full text-center relative after:absolute after:left-0 after:bottom-0 after:w-full after:h-[1px] after:bg-slate-300 after:opacity-20 after:transition-all after:duration-300 hover:after:w-full lg:after:hidden"
             >
               <li>Project</li>
             </a>
             <a
-              href="contact"
+              href="#contact"
               className="tracking-widest text-base hover:text-brightColor h-[35px] lg:h-auto w-full text-center relative after:absolute after:left-0 after:bottom-0 after:w-full after:h-[1px] after:bg-slate-300 after:opacity-20 after:transition-all after:duration-300 hover:after:w-full lg:after:hidden"
             >
               <li>Contact</li>
