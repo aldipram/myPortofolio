@@ -20,7 +20,7 @@ function Navbar() {
           </a>
         </div>
         <nav
-          className={`mobile:absolute mobile:top-16 mobile:right-0 mobile:w-[200px] mobile:h-[330px] mobile:bg-darkBackground mobile:p-4 mobile:z-50 mobile:shadow-2xl mobile:rounded-bl-md ${
+          className={`mobile:absolute mobile:top-16 mobile:right-0 mobile:w-[200px] mobile:h-[55vh] mobile:bg-darkBackground mobile:p-4 mobile:z-50 mobile:shadow-2xl mobile:rounded-bl-md ${
             isMobileMenuOpen ? "mobile:block" : "mobile:hidden"
           }`}
         >
