@@ -1,7 +1,6 @@
 import About from "./Components/About"
 import Home from "./Components/Home"
 import Navbar from "./Components/Navbar"
-import Project from "./Components/Project"
 
 function App() {
   return (
@@ -10,7 +9,6 @@ function App() {
       <Navbar />
       <Home />
       <About />
-      <Project />
     </div>
     </>
   )
